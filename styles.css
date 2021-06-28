@@ -6,86 +6,6 @@ body {
   letter-spacing: 2px;
 }
 
-img {
-  border-radius: 50%;
-}
-
-.profile-picture {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8%;
-  height: auto;
-  max-width: 150px;
-}
-
-.spotify-codes {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: 15px;
-  height: auto;
-  max-width: 280px;
-  padding: auto;
-}
-
-.profile-name {
-    text-align: center;
-    padding: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    letter-spacing: 2px;
-    padding-bottom: 30px;
-    margin-bottom: 25px;
-    margin-top: -15px;
-}
-
-.links {
-    text-align: center;
-    margin-top: 20px;
-    padding: 20px;
-    border: 1px solid white;
-    border-width: 2px;
-    width: 290px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    letter-spacing: 2px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  transition: color 2s; 
-}
-
-.bottom-text {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.3);
-  margin-top: 80px;
-  margin-bottom: 0px;
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  letter-spacing: 2px;
-  font-size: 12px;
-  letter-spacing: 2px;
-}
-
-::-webkit-scrollbar {
-  width: 7.5px;
-  background-color:body {
-  background: black;
-  color: #fff;
-  font-family: 'Mulish', sans-serif;
-  font-size: 15px;
-  letter-spacing: 2px;
-}
-
 @font-face {
   font-family: 'Manrope-Regular';
   src: url(/assets/fonts/regular.otf);
@@ -182,22 +102,6 @@ a {
 ::-webkit-scrollbar {
   width: 7.5px;
   background-color: rgb(24, 24, 24);
-  border-radius: 9.6px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: rgb(100, 100, 100);
-  border-radius: 8px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(70, 70, 70);
-}
-
-a:hover {
-  color: #000;
-  background: #fff;
-} rgb(24, 24, 24);
   border-radius: 9.6px;
 }
 
