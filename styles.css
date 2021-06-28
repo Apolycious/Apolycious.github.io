@@ -89,6 +89,21 @@ a {
   letter-spacing: 2px;
 }
 
+::-webkit-scrollbar {
+  width: 7.5px;
+  background-color: rgb(24, 24, 24);
+  border-radius: 9.6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(100, 100, 100);
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(70, 70, 70);
+}
+
 a:hover {
   color: #000;
   background: #fff;
