@@ -28,3 +28,13 @@ function displayclock () {
     document.getElementById('clock').innerHTML = hrs + ':' + min + ' ' + en;
 
 }
+
+const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 800) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})
