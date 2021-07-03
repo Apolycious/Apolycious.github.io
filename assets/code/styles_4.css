@@ -1,0 +1,48 @@
+body {
+background: black;
+color: #fff;
+font-family: 'Manrope-Regular';
+font-size: 15px;
+letter-spacing: 2px;
+}
+  
+@font-face {
+font-family: 'Manrope-Regular';
+src: url(/assets/fonts/regular.otf);
+}
+  
+@font-face {
+font-family: 'Manrope-Bold';
+src: url(/assets/fonts/bold.otf);
+}
+
+.error {
+text-align: center;
+padding: 40px;
+font-family: 'Manrope-Bold';
+font-size: 90px;
+letter-spacing: 2px;
+padding-bottom: 30px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+.lol {
+text-align: center;
+padding: 0px;
+font-family: 'Manrope-Regular';
+font-size: 10px;
+letter-spacing: 2px;
+padding-bottom: 30px;
+margin-bottom: 15px;
+margin-top: -10px; 
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+video {
+    width: 100%;
+}
