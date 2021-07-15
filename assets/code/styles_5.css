@@ -1,0 +1,92 @@
+body {
+background: black;
+color: #fff;
+font-family: 'Mulish', sans-serif;font-size: 15px;
+letter-spacing: 2px;
+}
+  
+@font-face {
+font-family: 'Manrope-Regular';
+src: url(/assets/fonts/regular.otf);
+}
+  
+@font-face {
+ font-family: 'Manrope-Light'; 
+ src: url(/assets/fonts/light.otf);
+}
+
+@font-face {
+    font-family: 'Manrope-Bold';
+    src: url(/assets/fonts/bold.otf);
+}
+  
+.profile-picture {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 8%;
+height: auto;
+max-width: 150px;
+border-radius: 50%;
+}
+  
+.profile-name {
+text-align: center;
+padding: 40px;
+font-family: 'Manrope-Regular';
+font-size: 16px;
+letter-spacing: 2px;
+padding-bottom: 30px;
+margin-bottom: 15px;
+margin-top: auto;
+}
+
+.bigunder {
+text-align: center;
+padding: 40px;
+font-family: 'Manrope-Bold';
+font-size: 50px;
+letter-spacing: 2px;
+padding-bottom: 30px;
+margin-bottom: 15px;
+margin-top: auto;
+}
+
+.under {
+text-align: center;
+color: rgba(255, 255, 255, 0.3);
+margin-top: auto;
+margin-bottom: 0px;
+font-weight: bold;
+font-family: 'Manrope-Regular';
+font-size: 20px;
+letter-spacing: 2px;
+font-size: 12px;
+letter-spacing: 2px;
+}
+
+.bottom-text {
+text-align: center;
+color: rgba(255, 255, 255, 0.3);
+margin-top: auto;
+margin-bottom: 0px;
+font-weight: bold;
+font-family: 'Manrope-Regular';
+font-size: 20px;
+letter-spacing: 2px;
+font-size: 12px;
+letter-spacing: 2px;
+}
+
+.clock {
+text-align: center;
+color: rgba(255, 255, 255, 0.3);
+margin-top: 0px;
+margin-bottom: 20px;
+font-weight: bold;
+font-family: 'Manrope-Regular';
+font-size: 20px;
+letter-spacing: 2px;
+font-size: 12px;
+letter-spacing: 2px;
+}
